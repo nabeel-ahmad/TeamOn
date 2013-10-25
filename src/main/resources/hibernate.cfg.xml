@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	
+     <session-factory>
+     	
+        <mapping class="com.spikenow.model.User"/>
+        <mapping class="com.spikenow.model.Activity"/>
+        <mapping class="com.spikenow.model.ActivityType"/>
+        <mapping class="com.spikenow.model.JoinRequest"/>
+        <mapping class="com.spikenow.model.Notification"/>
+        <mapping class="com.spikenow.model.NotificationRecipient"/>
+        <mapping class="com.spikenow.model.UserPreferences"/>
+        <mapping class="com.spikenow.model.PlayerList"/>
+        <mapping class="com.spikenow.model.Player"/>
+        <mapping class="com.spikenow.model.ActivityPlayerList"/>
+        <mapping class="com.spikenow.model.SharingAction"/>
+        <mapping class="com.spikenow.model.ActivityCoHost"/>
+        <mapping class="com.spikenow.model.Device"/>
+        <mapping class="com.spikenow.model.Comment"/>
+        <mapping class="com.spikenow.model.DirectMessage"/>
+        <mapping class="com.spikenow.model.DirectMessageThread"/>
+        <mapping class="com.spikenow.model.UserBlock"/>
+        <mapping class="com.spikenow.model.UserPlayerList"/>
+        <mapping class="com.spikenow.model.Subscription"/>
+
+   	</session-factory>
+
+</hibernate-configuration>

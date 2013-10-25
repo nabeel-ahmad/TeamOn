@@ -1,0 +1,38 @@
+package com.spikenow.service;
+
+public enum NotificationTypes {
+
+	SIGN_UP("N101"), 
+	ACCOUNT_ACTIVATED("N102"), 
+	PASSWORD_RESET_REQUESTED("N103"),
+	ACCOUNT_DEACTIVATED("N104"), 
+	
+	ACTIVITY_CREATED("N105"), 
+	ADDED_AS_CO_HOST("N106"),
+	ACTIVITY_INVITE_EXSISTING_USER("N107a"),
+	ACTIVITY_INVITE_NEW_USER("N107b"),
+	ACTIVITY_CANCELLED("N108"),
+	JOINED_ACTIVITY_CANCELLED("N109"),
+	ACTIVITY_UPDATED("N110"),
+	JOINED_ACTIVITY_UPDATED("N111"),
+	JOIN_REQUEST_SENT("N112"),
+	JOIN_REQUEST_RECIEVED("N113"), 
+	JOIN_REQUEST_ACCEPTED("N114"), 
+	JOIN_REQUEST_REJECTED("N115"), 
+	JOIN_REQUEST_WITHDRAWN("N116"), 
+	OWN_JOIN_REQUEST_WITHDRAWN("N117"), 
+	
+	EMAIL_PARTICIPANTS("N118");
+	
+	
+	private String messageKey;
+
+	private NotificationTypes(String messageKey) {
+		this.messageKey = messageKey;
+	}
+
+	public String getMessageKey() {
+		return messageKey;
+	}
+	
+}

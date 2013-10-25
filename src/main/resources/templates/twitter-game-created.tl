@@ -1,0 +1,1 @@
+[user-name] is organizing a [sport] game [link] on [game-date] at [game-location] #TeamOn

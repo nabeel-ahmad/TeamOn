@@ -1,0 +1,1 @@
+TeamOn makes it very simple and instant to organize and play your favorite sports. As an organizer, you can organize a game using your smart phone and share it instantly with your social group on a Facebook or Twitter, or your own player lists. As a player, you can discover your favorites sport games around you to have fun right wherever you are at whatever time you want to play!
